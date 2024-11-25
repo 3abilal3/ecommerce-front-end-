@@ -1,6 +1,6 @@
 body {
     margin:0;
-    font-family:'poppins'
+    /* font-family:'poppins' */
    
 }
 *,
@@ -24,7 +24,7 @@ body {
  color: white;
  display: inline-block;
  font-weight: bold;
- font-size: 18px;
+ font-size: 16px;
  position: relative;
 }
 
@@ -73,7 +73,7 @@ nav{
 
 nav .logo{
     
-font-family: 'Raleway',"roboto";
+font-family: 'Raleway';
 font-style: normal;
 font-weight: 900;
 font-size: 40px;
@@ -105,9 +105,124 @@ margin: 0;
 
 .hero-section{
 display: flex;
-justify-content: space-between;
+ justify-content: space-between;
 align-items: center;
 height: 100vh;
 width: 100%;
+padding-top: 60px;
+position: relative;
+}
+
+
+.hero-section .left h1{
+font-family: 'Raleway',"sans-serif";
+font-style: normal;
+font-weight: 900;
+font-size: 50px;
+color: #FFFFFF;
+}
+
+.hero-section .left p{
+ 
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #FFFFFF;
+margin-bottom: 30px;
+width: 457px; 
+}
+
+.hero-section .left{
+flex: 1;
+}
+
+.hero-section .right img{
+    height: 560px;
+    vertical-align: middle;
+}
+
+.hero-section .right{
+    align-self: flex-end;
+}
+
+
+.achivement-card {
+    position: absolute;
+}
+
+.achivement-card .content{
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    padding: 8px 32px;
+    position: relative;
+    z-index: 10;
+    
+}
+
+
+.achivement-card.students-enrolled{
+    left: 47%;
+    top: 344px;
+}
+
+/* 32K */
+.achivement-card.overall-rating{
+    left: 31%;
+    top: 568px;
+}
+
+.achivement-card h3{
+font-family: 'Poppins';
+font-weight: 700;
+font-size: 36px;
+color: var(--darkblue-color);
+/* identical to box height, or 45px */
+
+color: #023047;
+
 
 }
+
+.achivement-card p{
+font-family: 'Poppins';
+font-weight: 400;
+font-size: 16px;
+color: var(--darkblue-color);
+margin: 0;
+text-align: center;
+margin-top: -8px;
+margin-bottom: 8px;
+}
+
+
+.achivement-card .bg{
+       position:absolute;
+     
+       height: 100%;
+       width:100%;
+       top: 8px;
+       left: 8px;
+       border-radius: 24px;
+       background: linear-gradient(180deg, #525bab 0%, #3B448F 100%);
+       z-index: 1;
+}
+
+.achivement-card .content div{
+   display: flex;
+   align-items: center; 
+   gap: 12px;
+   left: 12.12%
+}
+
+
+/* Vector */
+.achivement-card .content img{
+position: absolute;
+left: 60.12%;
+right: 3.12%;
+top: 28.69%;
+bottom: 4.69%;
+
+}
+
