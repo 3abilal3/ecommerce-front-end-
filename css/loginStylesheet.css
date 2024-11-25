@@ -58,3 +58,56 @@ header{
     height: 100vh;
     width: 100%;
 }
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 36px;
+    width: 1134px;
+    z-index: 100;
+
+}
+
+nav .logo{
+    
+font-family: 'Raleway',"roboto";
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+color: #FFFFFF;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+nav ul li a{
+    /* About */
+
+font-family: 'Poppins',"sans-sarif";
+font-weight: 700;
+font-size: 16px;
+color: #FFFFFF;
+text-decoration: none;
+margin: 0;
+
+}
+
+/* hero section */
+
+.hero-section{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 100vh;
+width: 100%;
+
+}
