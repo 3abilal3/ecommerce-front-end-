@@ -226,3 +226,45 @@ bottom: 4.69%;
 
 }
 
+/* testimonial section */
+
+/* Testimonials Section */
+
+h2{
+   
+font-family: 'Raleway','sans-sarif';
+font-weight: 900;
+font-size: 60px;
+color: var(--darkblue-color);
+margin: 0;
+
+}
+
+section{
+    margin-top: 100px;
+}
+
+section p{
+    /* All students get access to all the videos and also the source code of the projects. You will also have access to a private Discord channel where you can discuss your doubts. */
+
+
+font-family: 'Poppins';
+font-weight: 400;
+font-size: 16px;
+color: var(--darkblue-color);
+margin: 12px 0px;
+
+}
+h2.light{
+color:#fff;
+}
+
+.testimonials-section{
+display: flex;
+align-items: center;
+gap:100px;
+}
+
+.testimonials-section .mobile-btn{
+    display: none;
+    }
