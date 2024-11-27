@@ -1,270 +1,283 @@
 body {
-    margin:0;
-    /* font-family:'poppins' */
-   
+  margin: 0;
+  /* font-family:'poppins' */
 }
 *,
 *::after,
 *::before {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-:root{
-    --orange-color:#DA722C;
-    --light-blue-color:#057ADA;
-    --light-color:#E8F7FB;
-    --darkblue-color:#023047;
-    --dark-color:#070917;
-    --purple-color:#6F7DFB;
-}
-
-.btn{
- padding: 16px 32px;
- border-radius: 24px;
- text-decoration: none;
- color: white;
- display: inline-block;
- font-weight: bold;
- font-size: 16px;
- position: relative;
+:root {
+  --orange-color: #da722c;
+  --light-blue-color: #057ada;
+  --light-color: #e8f7fb;
+  --darkblue-color: #023047;
+  --dark-color: #070917;
+  --purple-color: #6f7dfb;
 }
 
-.btn.dark{
-    background: var(--darkblue-color);
+.btn {
+  padding: 16px 32px;
+  border-radius: 24px;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+  position: relative;
 }
 
-.btn.light{
-    background: var(--orange-color);
+.btn.dark {
+  background: var(--darkblue-color);
 }
 
-.btn.enroll-now::before{
-    content: url("/assets/PencilAlt.svg");
-    position: absolute;
-    top: 50%;
-    left: 32px;
-    transform: translateY(-50%);
+.btn.light {
+  background: var(--orange-color);
 }
 
-.btn.enroll-now{
-    padding-left: 60px;
+.btn.enroll-now::before {
+  content: url("/assets/PencilAlt.svg");
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  transform: translateY(-50%);
 }
 
-.wrapper{
-    max-width: 1134px;
-    margin: 0px auto;
+.btn.enroll-now {
+  padding-left: 60px;
 }
 
-header{
-    background: linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
-    height: 100vh;
-    width: 100%;
+.wrapper {
+  max-width: 1134px;
+  margin: 0px auto;
 }
 
-
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 36px;
-    width: 1134px;
-    z-index: 100;
-
+header {
+  background: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%);
+  height: 100vh;
+  width: 100%;
 }
 
-nav .logo{
-    
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 900;
-font-size: 40px;
-color: #FFFFFF;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 36px;
+  width: 1134px;
+  z-index: 100;
 }
 
-nav ul{
-    display: flex;
-    align-items: center;
-    gap: 60px;
-    list-style: none;
-    text-decoration: none;
-    
+nav .logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  color: #ffffff;
 }
 
-nav ul li a{
-    /* About */
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  list-style: none;
+  text-decoration: none;
+}
 
-font-family: 'Poppins',"sans-sarif";
-font-weight: 700;
-font-size: 16px;
-color: #FFFFFF;
-text-decoration: none;
-margin: 0;
+nav ul li a {
+  /* About */
 
+  font-family: "Poppins", "sans-sarif";
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0;
 }
 
 /* hero section */
 
-.hero-section{
-display: flex;
- justify-content: space-between;
-align-items: center;
-height: 100vh;
-width: 100%;
-padding-top: 60px;
-position: relative;
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  padding-top: 60px;
+  position: relative;
 }
 
-
-.hero-section .left h1{
-font-family: 'Raleway',"sans-serif";
-font-style: normal;
-font-weight: 900;
-font-size: 50px;
-color: #FFFFFF;
+.hero-section .left h1 {
+  font-family: "Raleway", "sans-serif";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  color: #ffffff;
 }
 
-.hero-section .left p{
- 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-color: #FFFFFF;
-margin-bottom: 30px;
-width: 457px; 
+.hero-section .left p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 30px;
+  width: 457px;
 }
 
-.hero-section .left{
-flex: 1;
+.hero-section .left {
+  flex: 1;
 }
 
-.hero-section .right img{
-    height: 560px;
-    vertical-align: middle;
+.hero-section .right img {
+  height: 560px;
+  vertical-align: middle;
 }
 
-.hero-section .right{
-    align-self: flex-end;
+.hero-section .right {
+  align-self: flex-end;
 }
-
 
 .achivement-card {
-    position: absolute;
+  position: absolute;
 }
 
-.achivement-card .content{
-    border-radius: 24px;
-    background-color: #FFFFFF;
-    padding: 8px 32px;
-    position: relative;
-    z-index: 10;
-    
+.achivement-card .content {
+  border-radius: 24px;
+  background-color: #ffffff;
+  padding: 8px 32px;
+  position: relative;
+  z-index: 10;
 }
 
-
-.achivement-card.students-enrolled{
-    left: 47%;
-    top: 344px;
+.achivement-card.students-enrolled {
+  left: 47%;
+  top: 344px;
 }
 
 /* 32K */
-.achivement-card.overall-rating{
-    left: 31%;
-    top: 568px;
+.achivement-card.overall-rating {
+  left: 31%;
+  top: 568px;
 }
 
-.achivement-card h3{
-font-family: 'Poppins';
-font-weight: 700;
-font-size: 36px;
-color: var(--darkblue-color);
-/* identical to box height, or 45px */
+.achivement-card h3 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--darkblue-color);
+  /* identical to box height, or 45px */
 
-color: #023047;
-
-
+  color: #023047;
 }
 
-.achivement-card p{
-font-family: 'Poppins';
-font-weight: 400;
-font-size: 16px;
-color: var(--darkblue-color);
-margin: 0;
-text-align: center;
-margin-top: -8px;
-margin-bottom: 8px;
+.achivement-card p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--darkblue-color);
+  margin: 0;
+  text-align: center;
+  margin-top: -8px;
+  margin-bottom: 8px;
 }
 
+.achivement-card .bg {
+  position: absolute;
 
-.achivement-card .bg{
-       position:absolute;
-     
-       height: 100%;
-       width:100%;
-       top: 8px;
-       left: 8px;
-       border-radius: 24px;
-       background: linear-gradient(180deg, #525bab 0%, #3B448F 100%);
-       z-index: 1;
+  height: 100%;
+  width: 100%;
+  top: 8px;
+  left: 8px;
+  border-radius: 24px;
+  background: linear-gradient(180deg, #525bab 0%, #3b448f 100%);
+  z-index: 1;
 }
 
-.achivement-card .content div{
-   display: flex;
-   align-items: center; 
-   gap: 12px;
-   left: 12.12%
+.achivement-card .content div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  left: 12.12%;
 }
-
 
 /* Vector */
-.achivement-card .content img{
-position: absolute;
-left: 60.12%;
-right: 3.12%;
-top: 28.69%;
-bottom: 4.69%;
-
+.achivement-card .content img {
+  position: absolute;
+  left: 60.12%;
+  right: 3.12%;
+  top: 28.69%;
+  bottom: 4.69%;
 }
 
 /* testimonial section */
 
 /* Testimonials Section */
 
-h2{
-   
-font-family: 'Raleway','sans-sarif';
+h2 {
+  font-family: "Raleway", "sans-sarif";
+  font-weight: 900;
+  font-size: 60px;
+  color: var(--darkblue-color);
+  margin: 0;
+}
+
+section {
+  margin-top: 100px;
+}
+
+section p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--darkblue-color);
+  margin: 12px 0px;
+}
+h2.light {
+  color: #fff;
+}
+
+.testimonials-section {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.testimonials-section .mobile-btn {
+  display: none;
+}
+
+.testimonials-section .testimonial-card {
+  width: 442px;
+  background: #ffffff;
+  box-shadow: 0px 9px 36px rgba(0, 0, 0, 0.2);
+  border-radius: 24px;
+  margin-bottom: 50px;
+}
+
+.testimonials-section .testimonial-card .content {
+  font-family: "Raleway";
+  font-weight: 900;
+  font-size: 18px;
+  color: #ffffff;
+  border-radius: 24px;
+  background-color: var(--light-blue-color);
+  padding: 40px 30px;
+}
+
+
+.testimonials-section .testimonial-card .info h4{
+font-family: 'Raleway';
 font-weight: 900;
-font-size: 60px;
+font-size: 24px;
 color: var(--darkblue-color);
 margin: 0;
-
 }
 
-section{
-    margin-top: 100px;
+.testimonials-section .testimonial-card:last-child .content{
+    background-color: var(--orange-color );
 }
 
-section p{
-    /* All students get access to all the videos and also the source code of the projects. You will also have access to a private Discord channel where you can discuss your doubts. */
-
-
-font-family: 'Poppins';
-font-weight: 400;
-font-size: 16px;
-color: var(--darkblue-color);
-margin: 12px 0px;
-
+.testimonials-section .testimonial-card .info{
+    padding: 24px 32px;
 }
-h2.light{
-color:#fff;
-}
-
-.testimonials-section{
-display: flex;
-align-items: center;
-gap:100px;
-}
-
-.testimonials-section .mobile-btn{
-    display: none;
-    }
