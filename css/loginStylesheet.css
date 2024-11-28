@@ -276,8 +276,11 @@ margin: 0;
 
 .testimonials-section .testimonial-card:last-child .content{
     background-color: var(--orange-color );
-}
+}  
 
 .testimonials-section .testimonial-card .info{
     padding: 24px 32px;
 }
+
+
+
